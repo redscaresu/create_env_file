@@ -18,8 +18,8 @@ func main() {
     os.Setenv("url2", "www.bing.com")
     os.Setenv("url3", "www.sky.com")
 
-    fmt.Printf("%#v\n", os.Getenv("url1"))
-    fmt.Printf("%#v\n", os.Getenv("url2"))
-    fmt.Printf("%#v\n", os.Getenv("url3"))
+    fmt.Printf(os.Getenv("url1"))
+    fmt.Printf(os.Getenv("url2"))
+    fmt.Printf(os.Getenv("url3"))
 
 }
